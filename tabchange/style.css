@@ -1,0 +1,36 @@
+.tabs {
+	width: 100%;
+	display: inline-block;
+}
+/* Tab links */
+.tab-links:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+.tab-links li {
+	margin: 0px 5px;
+	float: left;
+	list-style: none;
+}
+.tab-links a {
+	padding: 9px 15px;
+	display: inline-block;
+	border-radius:3px 3px 0px 0px;
+	text-align: center;
+}
+.tab-links a:hover img{
+	opacity: 0.8;
+}
+.tab {
+	display: none;
+}
+.tab.active {
+	display: block;
+}
+/* Tab content */
+.tab-content {
+	padding: 15px;
+	box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
+    background: #ddd;
+}
